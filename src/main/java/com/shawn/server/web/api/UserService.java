@@ -7,5 +7,7 @@ public interface UserService {
 	public User login(String username, String password);
 
 	public User getUser(Integer userId);
+	
+	public User createUser(String username, String password);
 
 }
